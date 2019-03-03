@@ -11,7 +11,7 @@ gcc -O3 count_triangles.c -o cnt
 
 For the CUDA algorithm:
 ```bash
-nvcc -O3 cu_count_triangles.c -o cuda_cnt
+nvcc -O3 cu_count_triangles.cu -o cuda_cnt
 ```
 
 ## Usage 
